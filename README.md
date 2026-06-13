@@ -2,11 +2,27 @@
 
 A fun and fast-paced endless runner game built using **HTML, CSS, and JavaScript**. Control your character, jump across floating platforms, avoid deadly collisions, and survive for as long as possible while chasing a high score.
 
----
-
-## 🚀 Live Demo
 
 👉[Play Endless Face Runner](https://bhavesh23-27.github.io/Endless_Face_Runner/)
+
+---
+## ✨ Steps
+
+1. Upload the image of your Character
+2. Adjust thee Face within the margin
+3. Click on Start Running
+4. The Gameplay will start now
+5. Score as High as you Can
+
+---
+## 🎮 Controls
+
+| Key              | Action                     |
+| ---------------- | -------------------------- |
+| Space Bar        | Jump                       |
+| Double Space Bar | Higher Jump                |
+| Start Running    | Start the game             |
+| Restart          | Play again after game over |
 
 ---
 
@@ -22,33 +38,8 @@ A fun and fast-paced endless runner game built using **HTML, CSS, and JavaScript
 
 ### Game Over Screen
 
-![Game Over](screenshots/gameover.png)
+![Game Over](Game_Over.png)
 
-> Replace these images with screenshots from your game.
-
----
-
-## ✨ Features
-
-* Endless runner gameplay
-* Floating platform mechanics
-* Accurate collision detection
-* Double-jump for higher jumps
-* Score tracking system
-* Smooth animations and effects
-* Responsive browser-based gameplay
-* Instant restart functionality
-
----
-
-## 🎮 Controls
-
-| Key              | Action                     |
-| ---------------- | -------------------------- |
-| Space Bar        | Jump                       |
-| Double Space Bar | Higher Jump                |
-| Start Running    | Start the game             |
-| Restart          | Play again after game over |
 
 ---
 
@@ -57,20 +48,6 @@ A fun and fast-paced endless runner game built using **HTML, CSS, and JavaScript
 * HTML5
 * CSS3
 * JavaScript (Vanilla JS)
-
----
-
-## 📂 Project Structure
-
-```text
-Endless_Face_Runner/
-│
-├── index.html
-├── style.css
-├── script.js
-├── screenshots/
-└── README.md
-```
 
 ---
 
@@ -93,7 +70,7 @@ Guide the runner across floating platforms and survive as long as possible. Land
 
 ## 👨‍💻 Developer
 
-Created by **Bhavesh**
+Created by **Bhavesh Banait**
 
 ---
 
