@@ -6,7 +6,7 @@ A fun and fast-paced endless runner game built using **HTML, CSS, and JavaScript
 👉[Play Endless Face Runner](https://bhavesh23-27.github.io/Endless_Face_Runner/)
 
 ---
-## ✨ Steps
+## ✨ How to Play:-
 
 1. Upload the image of your Character
 2. Adjust thee Face within the margin
