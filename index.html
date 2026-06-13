@@ -442,7 +442,6 @@ function setupMobBtn(el,action){
   if(!el)return;
   el.addEventListener('touchstart',function(e){e.preventDefault();if(gameState==='playing')action();},{passive:false});
 }
-// (left/right handled by hold-to-move listeners below)
 var mobLeftEl=document.getElementById('mobLeft');
 var mobRightEl=document.getElementById('mobRight');
 if(mobLeftEl){
@@ -536,7 +535,6 @@ function generateSegment(){
 
 function pickBestTier(diff){
   var pool=diff===0?[0,0,1]:diff===1?[0,1,1,2]:[1,1,2,2];
-  // Don't repeat same tier twice in a row
   var filtered=pool.filter(function(t){return t!==lastFloatTier;});
   if(filtered.length===0)filtered=pool;
   return filtered[Math.floor(Math.random()*filtered.length)];
@@ -658,7 +656,7 @@ function update(){
   }
 
   player.vy+=GRAVITY;
-  if(player.vy>22)player.vy=22; // terminal velocity
+  if(player.vy>22)player.vy=22;
   player.y+=player.vy;
 
   var wasGrounded=player.grounded;
@@ -1026,7 +1024,6 @@ function drawPlayer(){
   ctx.save();
   ctx.translate(px+PLAYER_WIDTH/2,py+PLAYER_HEIGHT);
   ctx.scale(f,1);
-  // Squish/stretch
   var sy=player.squishY,sx2=1+(1-sy)*0.5;
   ctx.scale(sx2,sy);
   ctx.translate(-PLAYER_WIDTH/2,-PLAYER_HEIGHT);
