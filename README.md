@@ -14,11 +14,11 @@ A fun and fast-paced endless runner game built using **HTML, CSS, and JavaScript
 
 ### Main Menu
 
-![Main Menu](screenshots/menu.png)
+![Main Menu](Main_menu.png)
 
 ### Gameplay
 
-![Gameplay](screenshots/gameplay.png)
+![Gameplay](Gameplay.png)
 
 ### Game Over Screen
 
